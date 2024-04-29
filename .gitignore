@@ -1,0 +1,43 @@
+# If you prefer the allow list template instead of the deny list, see community template:
+# https://github.com/github/gitignore/blob/main/community/Golang/Go.AllowList.gitignore
+#
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Dependency directories (remove the comment below to include it)
+# vendor/
+
+# Go workspace file
+go.work
+
+# Hugo 默认生成的目录
+/public/
+/resources/_gen/
+
+# Hugo 的构建锁文件
+.hugo_build.lock
+
+# 前端工具链文件夹
+/node_modules/
+
+# 编辑器和操作系统特定文件
+.vscode/
+.idea/
+.DS_Store
+
+# 日志文件
+*.log
+
+# 编辑器临时/备份文件
+*.swp
+*~
